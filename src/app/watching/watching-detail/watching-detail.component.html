@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="col-xs-12">
+        <div class="list-group-item clearfix">
+            <h2>{{watching.name}}</h2>
+            <h3>{{watching.description}}</h3>
+            <span class="pull-right">
+            <a routerLink="edit" class="btn btn-primary">Edit</a> 
+            <button (click)="onDelete()" class="btn btn-danger">Delete</button> 
+        </span> 
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="list-group-item">
+            <p>Url: {{ watching.url }}</p>
+        </div>
+    </div>
+</div>

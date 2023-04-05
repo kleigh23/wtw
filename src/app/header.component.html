@@ -1,0 +1,25 @@
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">What to Watch</a>
+        </div>
+
+        <div class="collapes navbar-collapes">
+            <ul class="nav navbar-nav">
+                <li routerLinkActive="active"><a routerLink="/watchings">Watching</a></li>
+                <li routerLinkActive="active"><a routerLink="/">Plan to Watch</a></li>
+                <li routerLinkActive="active"><a routerLink="/">Finished</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown" appDropdown>
+                    <a href="#" class="dropdown-toggle" role="button">User <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Login Other</a></li>
+                        <li><a href="#">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

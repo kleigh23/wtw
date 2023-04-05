@@ -1,0 +1,12 @@
+<a 
+class="list-group-item clearfix"
+(click)="onSelected()"
+routerLink="./{{watching.id}}"
+routerLinkActive="active">
+    <div class="pull-left">
+        <h4 class="list-group-item-heading">{{ watching.name }}</h4>
+    </div>
+    <span class="pull-right">
+        <h3>{{ watching.description }}</h3>
+    </span>
+</a>
